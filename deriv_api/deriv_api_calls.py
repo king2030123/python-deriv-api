@@ -18,8 +18,7 @@ class DerivAPICalls:
         -----------
             args : dict with following keys
                 active_symbols : str
-                    If you use brief, only a subset of fields will be returned.
-                landing_company : str
+                    If you use brief, only a subset of fields will be returney : str
                     Deprecated - replaced by landing_company_short.
                 landing_company_short : str
                     [Optional] If you specify this field, only symbols available for trading by that landing company will be returned. If you are logged in, only symbols available for trading by your landing company will be returned regardless of what you specify in this field.
@@ -121,11 +120,7 @@ class DerivAPICalls:
 
     async def app_delete(self, args=None):
         """
-        The request for deleting an application.
-
-        Parameters:
-        -----------
-            args : dict with following keys
+        The
                 app_delete : int
                     Application app_id
                 passthrough : Any
